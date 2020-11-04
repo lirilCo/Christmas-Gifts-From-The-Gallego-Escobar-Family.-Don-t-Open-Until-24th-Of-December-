@@ -6,7 +6,7 @@ for(www in i){
 return [[b, i.replaceAll(" ", "").length], i]; 
 } 
   
-document.addEventListener("keyup", function(){ 	document.getElementById("Sara").innerHTML= "<p style= 'font-size: 15px; display: inline-block; '>" + contr( document.getElementsByTagName("textarea")[0].value )[0][0] + " Palabras. " + "</br>" + contr( document.getElementsByTagName("textarea")[0].value )[0][1] + " Caracteres (Sin espacios)" + "</p>" +  "<textarea style='font-size: 10px; width: 1000px; '>" + contr( document.getElementsByTagName("textarea")[0].value )[1] + "</textarea>"; }); 
+document.addEventListener("keyup", function(){ 	document.getElementById("Sara").innerHTML= "<p style= 'font-size: 15px; display: inline-block; '>" + contr( document.getElementsByTagName("textarea")[0].value )[0][0] + " Palabras. " + "</br>" + contr( document.getElementsByTagName("textarea")[0].value )[0][1] + " Caracteres (Sin espacios)." + "</p>" +  "<textarea style='font-size: 10px; width: 1000px; '>" + contr( document.getElementsByTagName("textarea")[0].value )[1] + "</textarea>"; }); 
  
 pressingL = false; pressingR = false; diedednotdiededbutdieded = false; grarb = false; x= false; 
 document.addEventListener("keydown", function(o){
@@ -30,113 +30,153 @@ switch(i){
 }
 }})
 
-Ariana = function(qwert, yuiop, a, i){u = 0; t = u; r = t; s = u; p = 100; n = "s-resize"; pressingL = false; pressingR = false; diedednotdiededbutdieded = false; grarb = false; Ai = 0; Gr = 0; y = 0;
+Ariana= function(qwert, yuiop, a, i){u= 0; t= u; r= t; s= u; p= 100; n= "s-resize"; pressingL= false; pressingR= false; diedednotdiededbutdieded= false; grarb= false; Ai= 0; Gr= 0; y= 0; 
+                         
+    if(qwert[0] == '#'){ 
+        vrb= document.getElementById(qwert.slice(1)); 
+    }else if(qwert[0] == '.'){ 
+        vrb= document.getElementsByClassName(qwert.slice(1)); 
+    }else{ 
+        vrb= document.getElementsByTagName(qwert); 
+    } 
+      
+    if(yuiop[0] == '#'){ 
+        lasrx= document.getElementById(yuiop.slice(1)); 
+    }else if(yuiop[0] == '.'){ 
+        lasrx= document.getElementsByClassName(yuiop.slice(1))[i]; 
+    }else{ 
+        lasrx= document.getElementsByTagName(yuiop)[i]; 
+    } 
+      
+    if(lasrx.innerHTML.indexOf("input") == -1){lasrx.innerHTML= "<input placeholder='Ariana'; style='height: 1pc;width:1pc; padding: 0; color: red; border: none; background-color: rgba(0,0,0,0); outline: none; position: fixed; z-index: 1000'></input>"; }; 
+                          
+    FurDER= document.URL; 
+                          
+    setInterval(function(){FurDER != document.URL? 1: 1; FurDER != document.URL? x= true: 1; FurDER != document.URL? ü= 0: 1; FurDER= document.URL; }, 10); 
+                                                      
+    document.addEventListener("keydown", function(i){ 
+        (!document.getElementsByTagName("h1")[0].hasAttribute("corrupt") && i.keyCode != 123)? i.preventDefault(): 1; 
+                             
+        if(i.keyCode == 38){ 
+            u-= 1 + 1; 
+        } 
+          
+        if(i.keyCode == 40){ 
+            u+= 2; 
+        } 
+          
+        if(i.keyCode == 37){ 
+            t-= 1 + 1; 
+        } 
+          
+        if(i.keyCode == 39){ 
+            t+= 2; 
+        } 
+          
+        if(i.keyCode == 57){ 
+            r-= 13; 
+        } 
+          
+        if(i.keyCode == 48){ 
+            r+= Math.random() * 23; 
+        } 
+          
+        if(i.keyCode == 50){ 
+            p < 99? p++: p; 
+        } 
+          
+        if(i.keyCode == 49){ 
+            p > 0? p--: p; 
+        } 
+          
+        if(i.keyCode == 52){ 
+            s= 7; 
+          
+            /*Tiempo sin vernos... ¡tiempo sin!.. . Casi que ni tiempo se podría decir.*/ 
+        } 
+          
+        if(i.keyCode == 55){ 
+            grarb= true; 
+                         
+            lasrx.childNodes[0].style.left= Ai; 
+                                                
+            lasrx.childNodes[0].style.top= Gr; 
+                                                
+            lasrx.childNodes[0].style.rotate= y + "deg"; 
+                    
+            y-= 15; 
+        }else if(i.keyCode == 56){ 
+            grarb= true; 
+                         
+            lasrx.childNodes[0].style.left= Ai; 
+                                                
+            lasrx.childNodes[0].style.top= Gr; 
+                                                
+            lasrx.childNodes[0].style.rotate= y + "deg"; 
+                    
+            y+= 15; 
+        }else{ 
+            grarb= false; // Te van a brillar los ojitos nada, te va a brillar el c*lo de tanta hij*ep*ta fricción Ai. 
+        } 
+          
+        if(i.keyCode == 51){ 
+            s= -7; 
+        } 
+          
+        if(i.keyCode == 53){ 
+            pressingL= true; 
+        }else if(i.keyCode == 54){ 
+            pressingR= true; 
+        } 
+          
+        (i.keyCode != 52 && i.keyCode != 51)? s= 0: 1; 
 
-if(qwert[0] == '#'){
-    vrbl = document.getElementById(qwert.slice(1));
-} else if(qwert[0] == '.'){
-    vrbl = document.getElementsByClassName(qwert.slice(1));
-}else{
-    vrbl = document.getElementsByTagName(qwert);
-}
+        for(e in vrb){ 
+            vrb[e].style.left= t + "px"; 
+                                          
+            vrb[e].style.opacity= p * 0.01; 
+                                            
+            vrb[e].style.rotate= r+ "deg"; 
+                                         
+            vrb[e].style.top= u + "px"; 
+                                         
+            vrb[e].style.width= parseInt(vrb[e].style.width.slice(0, length - 2)) + s + "px"; 
+                                                                                              
+            vrb[e].style.height= parseInt(vrb[e].style.height.slice(0, length - 2)) + s + "px"; 
+                                                                                                         
+            a == "a"? vrb[e].style.position= "relative": a != "b"? 1: vrb[e].style.position= "absolute"; 
+        } 
+    }); 
+        
+    document.addEventListener("mousedown", function(){diedednotdiededbutdieded= true; !rawrrawrrawrrawr? document.getElementsByTagName("body")[0].style.cursor= "grab": 1;grarb === false? grarb= true: 1; setTimeout(function(){if(grarb && !rawrrawrrawrrawr){document.getElementsByTagName("body")[0].style.cursor= "grabbing"}; }, 630); }); 
+                                                                                                       
+    document.addEventListener("mouseup", function(){diedednotdiededbutdieded= false; grarb= false; }); 
+                                                                                                       
+    setInterval(function(){if(pressingL && !rawrrawrrawrrawr){if(n == "n-resize"){n= "nw-resize"}else if(n == "nw-resize"){n= "w-resize"} else if(n == "w-resize"){n= "sw-resize"}else if(n == "sw-resize"){n= "s-resize"}else if(n == "s-resize"){n= "se-resize"}else if(n == "se-resize"){n= "e-resize"}else if(n == "e-resize"){n= "ne-resize"}else if(n == "ne-resize"){n= "n-resize"}; 
+                document.getElementsByTagName("body")[0].style.cursor= n; 
+            }if(pressingR && !rawrrawrrawrrawr){ 
+                if(n == "nw-resize"){n= "n-resize"}else if(n == "w-resize"){n= "nw-resize"} else if(n == "sw-resize"){n= "w-resize"}else if(n == "s-resize"){n= "sw-resize"}else if(n == "se-resize"){n= "s-resize"}else if(n == "e-resize"){n= "se-resize"}else if(n == "ne-resize"){n= "e-resize"}else if(n == "n-resize"){n= "ne-resize"}; 
+                    document.getElementsByTagName("body")[0].style.cursor= n; 
+                }if((!pressingL && !pressingR && !diedednotdiededbutdieded) && !rawrrawrrawrrawr){document.getElementsByTagName("body")[0].style.cursor != "none"? document.getElementsByTagName("body")[0].style.cursor= "none": document.getElementsByTagName("body")[0].style.cursor= "crossHair"}}, 123); 
+                            
+    setInterval(function(){ 
+        document.getElementsByTagName("body")[0].style.color != "black"? document.getElementsByTagName("body")[0].style.color= "black": document.getElementsByTagName("body")[0].style.color= "red"; }, 10); 
+                                                                                                                                        
+    document.addEventListener("keyup", function(i){if(i.keyCode == 53){pressingL= false;}else if(i.keyCode == 54){pressingR= false;}}); 
+                                                        
+    document.addEventListener("mousemove", function(i){ 
+                          
+    Ai= i.clientX + "px"; 
+    Gr= i.clientY + "px"; 
+                          
+    document.getElementsByTagName("h1")[0].innerText= "X: " + i.clientX + " Y: " + i.clientY; }); 
+                                                                    
+    document.getElementsByTagName("h1")[0].contentEditable= "true"; 
+} 
   
-  if(yuiop[0] == '#'){
-    lasrxs = document.getElementById(yuiop.slice(1));
-} else if(yuiop[0] == '.'){
-    lasrxs = document.getElementsByClassName(yuiop.slice(1))[i];
-}else{
-    lasrxs = document.getElementsByTagName(yuiop)[i];
-}
-if(lasrxs.innerHTML.indexOf("input") == -1){lasrxs.innerHTML = "<input placeholder='Ariana'; style='height: 1pc;width:1pc; padding: 0; color: red; border: none; background-color: rgba(0,0,0,0); outline: none; position: fixed; z-index: 1000'></input>"} 
-
-FurDER = document.URL
-setInterval(function(){FurDER != document.URL? 1: 1; FurDER != document.URL? x= true: 1; FurDER != document.URL? ü= 0: 1; FurDER = document.URL}, 10)
-document.addEventListener("keydown", function(i){
-
-  if(i.keyCode == 38){
-        u-=1+1;
-}if(i.keyCode == 40){
-        u+=2;
-}
-  if(i.keyCode == 37){
-        t-= 1+1;
-}
-if(i.keyCode == 39){
-        t+=2;
-}
-  if(i.keyCode == 17){
-        r-= 13;
-}
-if(i.keyCode == 16){
-        r+=Math.random()*23;
-}
-if(i.keyCode == 50){
-        p < 99 ? p++: p;
-}
-if(i.keyCode == 49){
-        p > 0 ? p--: p;
-}
-if(i.keyCode == 52){
-        s++;
-/*Tiempo sin vernos... ¡tiempo sin!.. . Casi que ni tiempo se podría decir.*/
-}
-if(i.keyCode == 55){
-grarb = true;
-        lasrxs.childNodes[0].style.left = Ai;
-	lasrxs.childNodes[0].style.top = Gr;
-	lasrxs.childNodes[0].style.rotate = y + "deg";
-	y -= 15;
-}else if(i.keyCode == 56){
-	grarb = true;
-        lasrxs.childNodes[0].style.left = Ai;
-        lasrxs.childNodes[0].style.top = Gr;
-	lasrxs.childNodes[0].style.rotate = y + "deg";
-	y += 15;
-}else{
-	grarb = false; // Te van a brillar los ojitos nada, te va a brillar el c*lo de tanta hij*ep*ta fricción Ai.
-}
-if(i.keyCode == 51){
-        s--;
-}
-if(i.keyCode == 53){
-        pressingL = true;
-}else if(i.keyCode == 54){
-        pressingR = true;
-}
-
-
-
-for(e in vrbl){
-vrbl[e].style.left = t+ "px"
-vrbl[e].style.opacity = p*0.01;
-vrbl[e].style.rotate = r+ "deg"
-vrbl[e].style.top = u+"px"
-vrbl[e].style.width = (100 + s)+"%"
-vrbl[e].style.height = (100 + s)+"%";
-a =="a" ? vrbl[e].style.position = "relative"  : a!= "b"? 1:  vrbl[e].style.position = "absolute";
-}
-})
-
-document.addEventListener("mousedown", function(){diedednotdiededbutdieded = true; !rawrrawrrawrrawr? document.getElementsByTagName("body")[0].style.cursor = "grab": 1;grarb === false ? grarb = true: 1; setTimeout(function(){if(grarb && !rawrrawrrawrrawr){document.getElementsByTagName("body")[0].style.cursor = "grabbing"};},630) })
-document.addEventListener("mouseup", function(){diedednotdiededbutdieded = false; grarb = false;})
- setInterval(function(){if(pressingL && !rawrrawrrawrrawr){ if(n == "n-resize"){n = "nw-resize"}else if(n == "nw-resize"){n = "w-resize"} else if(n == "w-resize"){n = "sw-resize"}else if(n == "sw-resize"){n = "s-resize"}else if(n == "s-resize"){n = "se-resize"}else if(n == "se-resize"){n = "e-resize"}else if(n == "e-resize"){n = "ne-resize"}else if(n == "ne-resize"){n = "n-resize"}
-document.getElementsByTagName("body")[0].style.cursor = n;
-}if(pressingR && !rawrrawrrawrrawr){
-if(n == "nw-resize"){n = "n-resize"}else if(n == "w-resize"){n = "nw-resize"} else if(n == "sw-resize"){n = "w-resize"}else if(n == "s-resize"){n = "sw-resize"}else if(n == "se-resize"){n = "s-resize"}else if(n == "e-resize"){n = "se-resize"}else if(n == "ne-resize"){n = "e-resize"}else if(n == "n-resize"){n = "ne-resize"}
-document.getElementsByTagName("body")[0].style.cursor = n; 
-}if((!pressingL && !pressingR && !diedednotdiededbutdieded) && !rawrrawrrawrrawr){document.getElementsByTagName("body")[0].style.cursor != "none"? document.getElementsByTagName("body")[0].style.cursor = "none": document.getElementsByTagName("body")[0].style.cursor = "crossHair"}},123)
-setInterval(function(){
-document.getElementsByTagName("body")[0].style.color != "black"? document.getElementsByTagName("body")[0].style.color = "black": document.getElementsByTagName("body")[0].style.color = "red";},10)
-document.addEventListener("keyup", function(i){if(i.keyCode == 53){pressingL = false;}else if(i.keyCode == 54){pressingR = false;}})
-document.addEventListener("mousemove", function(i){
-Ai = i.clientX + "px";
-Gr = i.clientY + "px";
-document.getElementsByTagName("h1")[0].innerText= "X: " + i.clientX + " Y: " + i.clientY})
-document.getElementsByTagName("h1")[0].contentEditable = "true";
-}
-
 Ariana("video", "a", "c", 0); 
-ü= 0;
+
+ü= 0; 
 setInterval(function(){
 if(!document.getElementsByTagName("article")[1].children[3].children[2].children[0].children[ü].children[1] && ü < document.getElementsByTagName("article")[1].children[3].children[2].children[0].children.length){
 
@@ -155,8 +195,9 @@ if(document.getElementsByTagName("article")[1].children[3].children[2].children[
     ü= 0; 
     x= false;
 }
-}, 1256)
- Accents= /*Were I able to access it*/{ 
+}, 1256); 
+
+Accents= /*Were I able to access it*/{ 
   "a": [ 
     "a", 
     "á", 
@@ -336,7 +377,7 @@ if(document.getElementsByTagName("article")[1].children[3].children[2].children[
     "i̇̃", 
     "į", 
     "į́", 
-    "į̇́",           
+    "į̇́", 
     "į̃", 
     "į̇̃", 
     "ī", 
@@ -652,7 +693,7 @@ if(document.getElementsByTagName("article")[1].children[3].children[2].children[
     "ȳ", 
     "ỷ", 
     "ỵ", 
-    "ɏ",  
+    "ɏ", 
     "ƴ", 
     "ỿ" 
   ], 
@@ -810,7 +851,7 @@ return [[b, i.replaceAll(" ", "").length], i];
   
 himno= 0; 
 setInterval( function(){
-	document.getElementById("Sara").innerHTML= "<p style= 'font-size: 15px; display: inline-block; '>" + contr( fe[himno] )[0][0] + " Palabras. " + "</br>" + contr( fe[himno] )[0][1] + " Caracteres (Sin espacios)" + "</p>" +  "<textarea style='font-size: 10px; width: 1000px; '>" + contr( fe[himno] )[1] + "</textarea>"; himno < 11? himno++: himno= 0; }, 5000); 
+	document.getElementById("Sara").innerHTML= "<p style= 'font-size: 15px; display: inline-block; '>" + contr( fe[himno] )[0][0] + " Palabras. " + "</br>" + contr( fe[himno] )[0][1] + " Caracteres (Sin espacios)." + "</p>" +  "<textarea style='font-size: 10px; width: 1000px; '>" + contr( fe[himno] )[1] + "</textarea>"; himno < 11? himno++: himno= 0; }, 5000); 
 //No va a haber zona cardíaca en la zona cardíaca... fuente. No. 
 console.log('parse("#Sara", -1);   '); 
 //onClipEvent(load){ 
@@ -901,7 +942,7 @@ document.addEventListener("mousemove", function(i){
                                                                
     PpPE= dsrcrs[L] == "#339dc1"? "; z-index: 2": "; border-radius: 50%; z-index: " + MNSWMTG; 
                                                                                                
-    (mousedown && rawrrawrrawrrawr)? i.target == lastChild? lastChild.innerHTML= lastChild.innerHTML + "<div style= 'width: 4.78px; height: 4.78px; background-color: " + dsrcrs[L] + PpPE + "; position: absolute; left: " + i.layerX + "px; top: " + i.layerY +  "px; '></div>": 1: 13781;
+    (mousedown && rawrrawrrawrrawr)? i.target == lastChild? lastChild.innerHTML= lastChild.innerHTML + "<div style= 'width: 4.78px; height: 4.78px; background-color: " + dsrcrs[L] + PpPE + "; position: absolute; left: " + i.layerX + "px; top: " + i.layerY +  "px; '></div>": 1: 13781; 
 }); 
     
 document.addEventListener("keyup", function(i){ 
