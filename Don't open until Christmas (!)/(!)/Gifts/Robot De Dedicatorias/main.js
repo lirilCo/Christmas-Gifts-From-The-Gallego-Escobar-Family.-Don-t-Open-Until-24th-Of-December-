@@ -1180,6 +1180,16 @@ function update(){
 rwrrw= ""; 
 mousedown= false; 
 dsrcrs= ["#339dc1", "#ff6711", "#339dc1", "#339dc1", "#339dc1", "#339dc1", "#339dc1", "#339dc1", "#d3ef30", "#2253ed", "#21ff34", "#339dc1"]; 
+opacity= function(color, op){ 
+    for(iu in document.getElementsByTagName("div")){ 
+        (document.getElementsByTagName("div")[iu].style && document.getElementsByTagName("div")[iu].style.backgroundColor == color)? document.getElementsByTagName("div")[iu].style.opacity= op: 1; 
+    }
+} 
+azul= "rgb(34, 83, 237)"; 
+verde= "rgb(33, 255, 52)"; 
+rojo= "rgb(255, 103, 17)"; 
+amarillo= "rgb(211, 239, 48)"; 
+function2= false; 
 //} 
     
 //onClipEvent(enterframe){ 
@@ -1188,7 +1198,97 @@ setInterval(function(){
 }, 0.00); 
           
 document.addEventListener("keydown", function(i){                                                                                                               
+    if(i.keyCode == 113){ 
+        i.preventDefault(); 
+                          
+        opacity(azul, 0); 
+                          
+        opacity(verde, 0); 
+                          
+        opacity(rojo, 0); 
+                          
+        opacity(amarillo, 0); 
+                       
+        goingUp= true; 
+        goingDown= false; 
+        cr= azul; 
+        ioi= 0; 
+        function1= false; 
+        function3= false; 
+        function4= false; 
+        function5= false; 
+        function6= false; 
+        function2= true; 
+    } 
+      
+    if(i.keyCode == 114){ 
+        i.preventDefault(); 
 
+        ioi= 0; 
+        function1= false; 
+        function2= false; 
+        function4= false; 
+        function5= false; 
+        function6= false; 
+        function3= true; 
+    } 
+      
+    if(i.keyCode == 115){ 
+        i.preventDefault(); 
+
+        ioi= 0; 
+        function1= false; 
+        function2= false; 
+        function3= false; 
+        function5= false; 
+        function6= false; 
+        function4= true; 
+    } 
+      
+    if(i.keyCode == 116){ 
+        i.preventDefault(); 
+
+        ioi= 0; 
+        function1= false; 
+        function2= false; 
+        function3= false; 
+        function4= false; 
+        function6= false; 
+        function5= true; 
+    } 
+      
+    if(i.keyCode == 117){ 
+        i.preventDefault(); 
+
+        ioi= 0; 
+        function1= false; 
+        function2= false; 
+        function3= false; 
+        function4= false; 
+        function5= false; 
+        function6= true; 
+    } 
+
+    if(i.keyCode == 112){ 
+        i.preventDefault(); 
+
+        ioi= 1; 
+                
+        opacity(azul, ioi); 
+                            
+        opacity(verde, ioi); 
+                            
+        opacity(rojo, ioi); 
+                            
+        opacity(amarillo, ioi); 
+                          
+        function1= false; 
+        function2= false; 
+        function3= false; 
+        function4= false; 
+        function5= false; 
+        function6= false; 
+    } 
 }); 
     
 document.addEventListener("mousedown", function(i){ 
@@ -1212,10 +1312,107 @@ document.addEventListener("mousemove", function(i){
                                                                
     PpPE= dsrcrs[L] == "#339dc1"? "; z-index: 2": "; border-radius: 50%; z-index: " + MNSWMTG; 
                                                                                                
-    (mousedown)? document.getElementsByTagName("body")[0].innerHTML= document.getElementsByTagName("body")[0].innerHTML + "<div style= 'width: 6.8px; height: 6.8px; background-color: " + dsrcrs[L] + PpPE + "; position: absolute; left: " + i.pageX + "px; top: " + i.pageY +  "px; '></div>": 13781;
+    (mousedown)? document.getElementById("r4Ndom").innerHTML= document.getElementById("r4Ndom").innerHTML + "<div style= 'width: 6.8px; height: 6.8px; background-color: " + dsrcrs[L] + PpPE + "; position: absolute; left: " + i.pageX + "px; top: " + i.pageY +  "px; '></div>": 13781;
 }); 
     
 document.addEventListener("keyup", function(i){                                                
 
 }); 
+setInterval(function(){ 
+if(function2){ 
+    cr != azul? opacity(azul, 0): 1; 
+    cr != verde? opacity(verde, 0): 1; 
+    cr != rojo? opacity(rojo, 0): 1; 
+    cr != amarillo? opacity(amarillo, 0): 1; 
+
+    if(goingUp && ioi < 1){ 
+        ioi+= 0.01; 
+        opacity(cr, ioi); 
+    } 
+      
+    if(goingDown && ioi > 0){ 
+        ioi-= 0.01; 
+        opacity(cr, ioi); 
+    } 
+
+    if(goingUp && ioi >= 1){ 
+        goingUp= false; 
+        setTimeout(function(){ 
+            goingDown= true; 
+        }, 2345) 
+    } 
+      
+    if(goingDown && ioi <= 0){ 
+        goingDown= false; 
+        setTimeout(function(){ 
+            cr == azul? cr= verde: cr == verde? cr= rojo: cr == rojo? cr= amarillo: cr == amarillo? cr= azul: 1; 
+            goingUp= true; 
+        }, 2345) 
+    }
+} 
+}, 161) 
+        
+setInterval(function(){ 
+if(function3){ 
+    switch(ioi){ 
+        case 0: 
+            opacity(azul, 0); 
+            opacity(verde, 0); 
+            opacity(rojo, 1); 
+            opacity(amarillo, 1); 
+        break; 
+        case 1: 
+            opacity(azul, 1); 
+            opacity(verde, 1); 
+            opacity(rojo, 0); 
+            opacity(amarillo, 0); 
+        break; 
+    } 
+    ioi < 1? ioi++: ioi= 0; 
+} 
+}, 235) 
+        
+setInterval(function(){ 
+if(function4){ 
+    switch(ioi){ 
+        case 0: 
+            opacity(azul, 0); 
+            opacity(rojo, 0); 
+            opacity(verde, 1); 
+            opacity(amarillo, 1); 
+        break; 
+        case 1: 
+            opacity(azul, 1); 
+            opacity(rojo, 1); 
+            opacity(verde, 0); 
+            opacity(amarillo, 0); 
+        break; 
+    } 
+    ioi < 1? ioi++: ioi= 0; 
+} 
+}, 235) 
+        
+setInterval(function(){ 
+if(function5){ 
+    switch(ioi){ 
+        case 0: 
+            opacity(azul, 0); 
+            opacity(amarillo, 0); 
+            opacity(rojo, 1); 
+            opacity(verde, 1); 
+        break; 
+        case 1: 
+            opacity(azul, 1); 
+            opacity(amarillo, 1); 
+            opacity(rojo, 0); 
+            opacity(verde, 0); 
+        break; 
+    } 
+    ioi < 1? ioi++: ioi= 0; 
+} 
+}, 235) 
+
+
+setInterval(function(){if(function6){for(e in document.getElementsByTagName("div")){document.getElementsByTagName("div")[e].style.backgroundColor != "rgb(51, 157, 193)"? Math.random() * 2 > 1? document.getElementsByTagName("div")[e].style.opacity= 1: document.getElementsByTagName("div")[e].style.opacity= 0: 1; };}}, 138); 
+
 //} 
