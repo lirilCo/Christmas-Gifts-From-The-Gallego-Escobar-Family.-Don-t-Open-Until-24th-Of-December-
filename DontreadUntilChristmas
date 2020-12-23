@@ -41,13 +41,13 @@ DontreadUntilChristmas
 
 El rectángulo se llama #dieded y el botoncito chiquito que tiene adentro se llama #ckl. 
 El rectángulo grande con el texto del cual se cuentan las palabras y caracteres (letras y signos de puntuación) se llama Suave Efecto Cafetero, 
-puedes escribir más cosas o borrar y "pegarle moriscos"; se actualiza cuando se suelta cualquier tecla del teclado. Yo escribí los poemas, yo soy el hijo de Satanás Belcebú, 
+puedes escribir más cosas o borrar y "pegarle mordiscos"; se actualiza cuando se suelta cualquier tecla del teclado. Yo escribí los poemas, yo soy el hijo de Satanás Belcebú, 
 el amor de la vida de La Madre Naturaleza, La Que Hace Que Crezcan Los Árboles y el nieto de Dios Jesucristo. 
 Los lenguajes son un regalo de mi parte para La Madre Naturaleza, La Que Hace Que Crezcan Los Árboles. 
 
-aNGEL(); traduce cosas escritas en cualquier lenguaje con buena ortografía a tu lenguaje leyendo en tu lenguaje.  
-por_siLaBas(); traduce cosas de tu lenguaje a todos los lenguajes a la vez leyendo en tu lenguaje.  
-dinosaurios(); traduce cosas que te dicen en otro lenguaje a tu lenguaje leyendo en tu lenguaje.  
+aNGEL(); traduce cosas escritas en cualquier lenguaje con buena ortografía a tu lenguaje leyéndolas en tu lenguaje.  
+por_siLaBas(); traduce cosas de tu lenguaje a todos los lenguajes a la vez leyéndolas en tu lenguaje.  
+dinosaurios(); traduce cosas que te dicen en otro lenguaje a tu lenguaje leyéndolas en tu lenguaje.  
 
 Siempre tienes que seguir la advertencia (!).  
 
@@ -62,6 +62,13 @@ saltar, ahora sí das click a detenerlo. Se parsea desde la consola con el códi
 
 Para ejecutar por_siLaBas();, escribes algo con buena ortografía en tu lenguaje separado por sílabas con guiones y oprimes shift, se parsea con #ckl por unos segundos 
 hasta que se sobreescribe con otro de los poemas de Suave Efecto Cafetero, esta es la advertencia de por_siLaBas();. También puede parsear con control. 
+
+La advertencia de dinosaurios(); está arriba de dinosaurios(); y se activa cuando te acercas. dinosaurios(); funciona apareciendo rectángulos verdes con Shift 
+en los que escribes con el mouse una sola letra en cada uno de lo que te dijeron como si fuera todo una sola palabra en tu lenguaje, con Control apareces un rectángulo 
+rojo y al darle clicks se ejecuta. 
+
+
+Lees el resultado en tu lenguaje y así se traduce. Pronunciando con más fuerza las letras de color diferente. 
 
 
 
