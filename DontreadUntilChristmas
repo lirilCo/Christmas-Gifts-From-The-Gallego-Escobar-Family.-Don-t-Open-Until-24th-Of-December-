@@ -65,7 +65,7 @@ de estar gris y se ponga blanco. Si están blancos los registros, le das click a
 Para ejecutar por_siLaBas();, escribes algo con buena ortografía en tu lenguaje separado por sílabas con guiones y varios espacios al final y oprimes shift, se parsea con
  #ckl por unos segundos hasta que se sobreescribe con otro de los poemas de Suave Efecto Cafetero, esta es la advertencia de por_siLaBas();. También puede parsear con control. 
 
-La advertencia de dinosaurios(); está arriba de dinosaurios(); y se activa cuando te acercas. dinosaurios(); funciona apareciendo rectángulos verdes con shift 
+La advertencia de dinosaurios(); está arriba de dinosaurios(); y se activa cuando te acercas; se llama Warning. dinosaurios(); funciona apareciendo rectángulos verdes con shift 
 en los que escribes con el mouse una sola letra en cada uno de los rectángulos verdes lo que te dijeron como si fuera todo una sola palabra en tu lenguaje, con control
 apareces un rectángulo rojo y al darle click se ejecuta. 
 
