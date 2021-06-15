@@ -41,7 +41,7 @@ DontreadUntilChristmas
 
 
 
-                                                           #⚠
+#                                                           ⚠
 
 Advertencia: peligro de crisis existencial. En caso de existencialismo, consulta autores como Arthur Schopenhauer o Jean-Paul
    Sartre, y lee mucho los poemas de mi blog. Una crisis existencial no es para siempre y normalmente no dura mucho tiempo.
