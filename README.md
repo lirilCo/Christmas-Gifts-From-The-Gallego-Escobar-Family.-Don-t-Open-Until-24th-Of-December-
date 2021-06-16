@@ -70,13 +70,14 @@ advertencias de Firefox Software Updater cuando inicies Firefox)
 
 Para ejecutar aNGEL();, escribes algo escrito con buena ortografía en cualquier lenguaje, con punto final, y presionas enter, si aparecen alertas que dicen "Summer" les das 
 aceptar a todas, cuando lo hagas, o si no apareció ninguna, dejas hundido el botón izquierdo del mouse y lo pasas por todos lados, por los botones de la barra de tareas, 
-el de cerrar, todos, sin soltarlo. Cuando aparezca una advertencia amarilla no sueltas el botón izquierdo del mouse aún y lo pasas por el botón "detenerlo", te alejas hacia la página web, ahí sí sueltas el botón izquierdo del mouse y 
-llevas la barra de tareas hacia arriba arrastrándola (Windows 10), si no se puede, le das click derecho y deschuleas "Bloquear barra de tareas", ahora sí debe funcionar.
-Hundes inicio + b, luego espacio y das click derecho varias veces dentro de la página hasta que desaparezca. Hundes alt y ahora sí le das click a "detenerlo", se lo debe 
-saltar (en las últimas versiones de Mozilla Firefox no sale el menú al presionar alt; en cambio haz más grande la barra de tareas arrastrando desde el borde inferior), 
-ahora sí das click a detenerlo; esperas a que salga un menú contextual y das click en otro lado. Para ver el resultado (parsear), vas a la consola (Hundes F12, la
-segunda pestaña). El código para parsear puede estar oculto bajo un montón de advertencias rojas. Al lado o abajo de Filtrar Salida das click en advertencias para que deje
-de estar gris y se ponga blanco. Si están blancos los registros, le das click allí para que se ponga gris. Copias el código lo pegas en la consola y presionas enter.  
+el de cerrar, todos, sin soltarlo. Cuando aparezca una advertencia amarilla no sueltas el botón izquierdo del mouse aún y lo pasas por el botón "detenerlo", te alejas hacia
+la página web, ahí sí sueltas el botón izquierdo del mouse y llevas la barra de tareas hacia arriba arrastrándola (Windows 10), si no se puede, le das click derecho y deschuleas
+"Bloquear barra de tareas", ahora sí debe funcionar. Hundes inicio + b, luego espacio y das click derecho varias veces dentro de la página hasta que desaparezca. Hundes alt y
+ahora sí le das click a "detenerlo", se lo debe saltar (en las últimas versiones de Mozilla Firefox no sale el menú al presionar alt; en cambio haz más grande la barra de tareas
+arrastrando desde el borde inferior), ahora sí das click a detenerlo; esperas a que salga un menú contextual y das click en otro lado. Para ver el resultado (parsear), vas a la
+consola (Hundes F12, la segunda pestaña). El código para parsear puede estar oculto bajo un montón de advertencias rojas. Al lado o abajo de Filtrar Salida das click en
+advertencias para que deje de estar gris y se ponga blanco. Si están blancos los registros, le das click allí para que se ponga gris. Copias el código lo pegas en la consola y
+presionas enter.  
 
 Para ejecutar por_siLaBas();, escribes algo con buena ortografía en tu lenguaje separado por sílabas con guiones y varios espacios al final y oprimes shift, se parsea con
  #ckl por unos segundos hasta que se sobreescribe con otro de los poemas de Suave Efecto Cafetero, esta es la advertencia de por_siLaBas();. También puede parsear con control. 
