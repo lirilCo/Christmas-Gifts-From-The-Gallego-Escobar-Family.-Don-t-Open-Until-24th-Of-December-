@@ -73,8 +73,7 @@ aceptar a todas, cuando lo hagas, o si no apareció ninguna, dejas hundido el bo
 el de cerrar, todos, sin soltarlo. Cuando aparezca una advertencia amarilla no sueltas el botón izquierdo del mouse aún y lo pasas por el botón "detenerlo", te alejas hacia
 la página web, ahí sí sueltas el botón izquierdo del mouse y llevas la barra de tareas hacia arriba arrastrándola (Windows 10), si no se puede, le das click derecho y deschuleas
 "Bloquear barra de tareas", ahora sí debe funcionar. Hundes inicio + b, luego espacio y das click derecho varias veces dentro de la página hasta que desaparezca. Hundes alt y
-ahora sí le das click a "detenerlo", se lo debe saltar (en las últimas versiones de Mozilla Firefox no sale el menú al presionar alt; en cambio haz más grande la barra de tareas
-arrastrando desde el borde inferior), ahora sí das click a detenerlo; esperas a que salga un menú contextual y das click en otro lado. Para ver el resultado (parsear), vas a la
+ahora sí le das click a "detenerlo", se lo debe saltar, ahora sí das click a detenerlo; esperas a que salga un menú contextual y das click en otro lado. Para ver el resultado (parsear), vas a la
 consola (Hundes F12, la segunda pestaña). El código para parsear puede estar oculto bajo un montón de advertencias rojas. Al lado o abajo de Filtrar Salida das click en
 advertencias para que deje de estar gris y se ponga blanco. Si están blancos los registros, le das click allí para que se ponga gris. Copias el código lo pegas en la consola y
 presionas enter.  
@@ -82,8 +81,8 @@ presionas enter.
 Para ejecutar por_siLaBas();, escribes algo con buena ortografía en tu lenguaje separado por sílabas con guiones y varios espacios al final y oprimes shift, se parsea con
  #ckl por unos segundos hasta que se sobreescribe con otro de los poemas de Suave Efecto Cafetero, esta es la advertencia de por_siLaBas();. También puede parsear con control. 
 
-La advertencia de dinosaurios(); está arriba de dinosaurios(); y se activa cuando te acercas; se llama Warning. dinosaurios(); funciona apareciendo rectángulos verdes con shift 
-en los que escribes con el mouse una sola letra en cada uno de los rectángulos verdes lo que te dijeron como si fuera todo una sola palabra en tu lenguaje, con control
+La advertencia de dinosaurios(); está arriba, en dinosaurios();, y se activa cuando te acercas; se llama Warning. dinosaurios(); funciona apareciendo rectángulos verdes con shift 
+en los que escribes con el mouse una sola letra en cada uno de los rectángulos verdes lo que te dijeron como si fuera todo una sola palabra en tu lenguaje. Con control
 apareces un rectángulo rojo y al darle click se ejecuta. 
 
 
