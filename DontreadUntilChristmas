@@ -77,7 +77,7 @@ saltar, ahora sí das click a detenerlo; esperas a que salga un menú contextual
 segunda pestaña). El código para parsear puede estar oculto bajo un montón de advertencias rojas. Al lado o abajo de Filtrar Salida das click en advertencias para que deje
 de estar gris y se ponga blanco. Si están blancos los registros, le das click allí para que se ponga gris. Copias el código lo pegas en la consola y presionas enter.  
 
-Para ejecutar por_siLaBas();, escribes algo con buena ortografía en tu lenguaje separado por sílabas con guiones y varios espacios al final y oprimes shift, se parsea con
+Para ejecutar por_siLaBas();, escribes algo con buena ortografía en tu lenguaje separado por sílabas con guiones y oprimes shift, se parsea con
  #ckl por unos segundos hasta que se sobreescribe con otro de los poemas de Suave Efecto Cafetero, esta es la advertencia de por_siLaBas();. También puede parsear con control. 
 
 La advertencia de dinosaurios(); está arriba, en dinosaurios();, y se activa cuando te acercas; se llama Warning. dinosaurios(); funciona apareciendo rectángulos verdes con shift 
