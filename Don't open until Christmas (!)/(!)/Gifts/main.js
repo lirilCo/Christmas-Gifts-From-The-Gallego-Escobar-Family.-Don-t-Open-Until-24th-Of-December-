@@ -1292,7 +1292,7 @@ aNGEL= function(r){
    
 por_siLaBas= function(í){ 
                                      
-  Text= "-" + í.toLowerCase() + " "; 
+  Text= "-" + í.toLowerCase() + "   "; 
   word= ""; 
   syl= ""; 
   Widgets= true; 
