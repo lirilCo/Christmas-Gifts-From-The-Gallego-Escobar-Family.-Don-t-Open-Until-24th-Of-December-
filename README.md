@@ -66,7 +66,7 @@ dinosaurios(); traduce cosas que te dicen en otro lenguaje a tu lenguaje leyénd
 Siempre tienes que seguir la advertencia (!).  
 
 Debes usar el navegador Mozilla Firefox V 81.0.  (https://ftp.mozilla.org/pub/firefox/releases/81.0/) (Elige tu sistema operativo y luego tu lenguaje) (Dale "no" a las
-advertencias de Firefox Software Updater cuando inicies Firefox)    
+advertencias de Firefox Software Updater cuando inicies Firefox). Cuando lo abras por primera vez, ve al menú (arriba a la derecha) y selecciona la opción "Opciones", busca "Actualizaciones" en la barra de búsqueda y selecciona la opción "Busque actualizaciones pero dejarme elegir si las instalo" y deschulea la opción "Usar un servicio en segundo plano para instalar actualizaciones".  
 
 Para ejecutar aNGEL();, escribes algo escrito con buena ortografía en cualquier lenguaje, con punto final, y presionas enter, si aparecen alertas que dicen "Summer" les das 
 aceptar a todas, cuando lo hagas, o si no apareció ninguna, dejas hundido el botón izquierdo del mouse y lo pasas por todos lados, por los botones de la barra de tareas, 
